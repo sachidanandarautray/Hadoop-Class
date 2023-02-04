@@ -1,1 +1,243 @@
+Basic Linux Commands:-
+====================
+1. ctrl + shift +++  = Increase Font size
+
+2. ctrl + ---- = Decrease Font size 
+
+3. ctrl + shift + n = Open a New Terminal
+
+4. exit = Close a Terminal
+
+5. clear / ctrl + l = Clear a Terminal
+
+6. pwd = Print/present working Directory
+
+7. ls = Show List of All File and Directory / Long Listing
+
+8. mkdir = Make a Directory
+
+9. rmdir = Remove a Directory / Delete a Empty Directory 
+
+10. rm -rf = Delete a Non-Empty Directory or File And Empty Directory and Folder
+
+11. rm -rf * =  Delete All File And Directory
+
+12. cd = Change Directory / Select Directory
+
+13. cd - = To Change Last working Directory
+
+14. cd .. = To Change Directory One Level Back
+
+15. cd .. /.. = To Change Directory Two Level Back
+
+Editor Commands:-
+===============
+
+16. vi file name = To Create a New File
+
+17. touch file name = To Create a 0 byte File
+
+18. cat file name = To view The File Content without Entry On That Program
+
+19. cat > file name = To Create a File
+
+20. cat >> file name = To Add Some Extra Content In a File
+
+Move Copy Paste:-
+===============
+
+21. cp = Copy a file
+
+22. cp -p fileName newlocation = To copy a File
+
+23. mv = Move a file / Rename a file
+
+24. mv filename newlocatio = To Move a File
+
+25. mv olderfilename newfilename = To Rename a File
+
+Important Commands:-
+==================
+
+26. mkdir d1 d2 d3 d4 d5 d6 = To Create Multiple Directory
+
+27. mkdir d1/d2/d3/d4/d5/d6 = To create Nested Directory
+
+28. date = To Find Cureent Date
+
+29. time = To Find Current Time
+
+30. history = To Check History
+
+31. history -c = To Clear History
+
+32. who am i = To Know Current User Name
+
+33. chmod filename = To Change The File Permission
+
+Ls Commands:-
+===========
+
+34. ls -l = To See File Permission
+
+35. ls -l = Long Listing including Attributes
+
+36. ls -l = To See The Owner Of The File
+
+37. ls -a = To see All Files Including  Hidden Files
+
+38. ls --color = Colored List
+
+39. ls -la = List Of Long Formart Including Hidden Files
+
+40. ls -lh = List Of Long File With Readable File Size
+
+41. ls -ls = List Of Long File with File Size 
+
+42. ls -r = List in Reverse Order
+
+43. ls -R = List Recursively Directory Tree
+
+44. ls -s = List File Size
+
+45. ls -S = Sort By File Size
+
+46. ls -t = Sort by Time And Date
+
+47. ls -X = Sort By Extension Name
+
+Insert Mode Command:-
+===================
+
+48. i = To Insert Text At The Current cursor Position
+
+49. I = To Insert Text At The Begining Of Program
+
+50. a = Add Text After The Current Cruser Position
+
+51. A = Add Text At The End Of The Line Position 
+
+52. o = Insert The Text One Line Below Current Cursor Position
+
+53. O = Insert The Text One Line Above Current Cursor Position 
+
+54. :59 = The Cursor Goes To 59 Line
+
+Command Line:-
+============
+
+55. dd = Delete a Line
+
+56. ndd = Delete "n" lines
+
+57. yy = Copy a Line
+
+58. nyy = Copies "n" Lines 
+
+59. p = put (pastes the deleted or Copied) 
+
+60. u = Undo (You can undo 1000 Line)
+
+61. ctrl + r = Redo
+
+62. G = Move The Crusor To The Last Line
+
+Extended Mode:-
+=============
+
+63. q = Quit without Saving
+
+64. q! = Quit Forcefully
+
+65. wq = Write And Quit
+
+66. wq! = Write And Quit ForceFully
+
+67. se nu = Sets Lines Numbers
+
+68. se nonu = Remove Line Numbers
+
+User Password And Group:-
+========================
+
+63. su = Super User
+
+64. system-config-users = To Check All The Group And Users GUI
+
+65. useradd username = Create a User
+
+66. passwd username = Create a Password For User
+
+67. userdel -rf username = Delete A User
+
+68. groupadd groupname = Create A Group
+
+69. gpasswd groupname = Create Password For Group
+
+70. groupdel groupname = Delete A Group
+
+71. usermod -G groupname username = To Add User In Group
+
+72. ls -d = To See a Perticular File And Directory
+
+73. usermod -d groupname username = To Delete User In Group
+
+74. tail filename = To See Last Lines Of Program
+
+75. head filename = To See Upper Lines Of Program
+
+76. tail -10 filename = To See Last 10 Lines Of Program
+
+77. head -5 filename = To See Upper 5 Lines Of Program
+
+Run Level:-
+=========
+
+78. /sbin/init 6 = Restart The system
+
+79. /sbin/init 0 = Shutdown The system
+
+80. runlevel 0 = Halt (Shuts Down)
+
+81. runlevel 1 = Single Mode
+
+82. runlevel 2 = Multiuser Mode Without Networking
+
+83. runlevel 3 = Multiuser Mode With Networking
+
+84. runlevel 4 = Not Used / User Definable
+
+85. runlevel 5 = Start The System Manually
+
+86. runlevel 6 = Reboot
+
+87. vim / etc/inittab = To Check Run Level
+
+88. -M = Add Multiple Users To A Group
+
+89. -A = Add A Group Administrator
+
+90. -d = Delete A User From A Group
+
+91. -a = Add A user To A Group
+
+92. fn + alt + ctrl + f1 = Log in A User 
+
+93. fn + alt + ctrl + f7 = Come Outside From A Log in Page
+
+94. e = Edit
+
+95. b = Booting
+
+96. usermod -L username = To lock A User
+
+97. usermod -U username = To Unlock A User
+
+98. usermod -I newname oldname = To Rename A User
+
+99. pstree / ps -aux = To Check The Proccess id
+
+100. kill -9 pid = To Kill A Proccess
+
+
 
